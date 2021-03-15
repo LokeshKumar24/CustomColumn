@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<Column id="ExtensionWizard::ColumnBreakout">
+		<Text text="Custom Column"/>
+		<customData>
+			<core:CustomData key="p13nData"   value='\{"columnKey": "EmployeeID", 
+            "isCurrency": false, "leadingProperty": "EmployeeID,LastName,FirstName", "filterProperty": "EmployeeID" ,
+          "sortProperty": "EmployeeID"}'/>
+          
+		</customData>
+       	<!-- <Text text="{EmployeeID}"/> -->
+	</Column>
+
+
+</core:FragmentDefinition>
+
+
+
+    

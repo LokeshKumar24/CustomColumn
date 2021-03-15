@@ -1,0 +1,7 @@
+/* .myCustomStyle:nth-child(even){
+    background-color: bisque !important;
+    color: chartreuse !important;
+} */
+table tbody tr:nth-child(even){
+    background-color: rgb(185, 218, 238) !important;
+}
